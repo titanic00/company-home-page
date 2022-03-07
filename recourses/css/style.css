@@ -73,6 +73,7 @@ header #nav p {
 
 .container-photos {
     margin-top: 1%;
+    padding: 1%;
 }
 
 .people {
@@ -123,7 +124,6 @@ header #nav p {
 #about-me .info {
     background-color: #f0c284;
     margin-top: 1%;
-    width: 95%;
 }
 
 /* --------------------------------------------------------------- */
