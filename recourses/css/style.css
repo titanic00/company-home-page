@@ -46,6 +46,13 @@ header #nav p {
     border-radius: 50%;
 }
 
+@media only screen and (max-width: 428) {
+    header #nav p {
+        text-decoration: underline;
+        margin: 10px;
+        font-size: 26;
+    }
+}
 
 /* --------------------------------------------------------------- */
 
