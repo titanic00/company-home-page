@@ -1,0 +1,142 @@
+* {
+    text-align: center;
+}
+
+h2, h3, p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+/* --------------------------------------------------------------- */
+
+.container img {
+    height: 60%;
+    margin: 10px;
+}
+
+.container {
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EAEDED;
+    background-color: #EAEDED;
+    position: fixed;
+    z-index: 100;
+    opacity: 0.9;
+    width: 100%;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+}
+
+header #nav p {
+    text-decoration: underline;
+    margin: 10px;
+    font-size: 26;
+}
+
+#order-button {
+    border: 5px solid #ff9e75;
+    padding: 1%;
+    background-color: #ff9e75;
+    border-radius: 50%;
+}
+
+
+/* --------------------------------------------------------------- */
+
+#introduction {
+    background-image: url('../images/introduction.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+}
+
+#introduction h2 {
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    font-size: 80;
+    font-weight: bold;
+    width: 60%;
+    height: 25%;
+    background-color: black;
+}
+
+/* --------------------------------------------------------------- */
+
+.container-photos {
+    margin-top: 1%;
+}
+
+.people {
+    background-color: #F0B27A;
+}
+
+.info {
+    padding: 3%;
+    font-size: 40;
+    color: white;
+    font-weight: bold;
+}
+
+.people-info {
+    background-color: #EB984E;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 1%;
+}
+
+.photos img {
+    width: 20%;
+    height: 10%;
+}
+
+/* --------------------------------------------------------------- */
+
+.buildings {
+    background-color: #3498DB;
+}
+
+.buildings-info {
+    background-color: #2E86C1;
+}
+
+/* --------------------------------------------------------------- */
+
+#about-me {
+    background-color: #faebd7;
+    margin-top: 1%;
+    padding: 1%;
+}
+
+#about-me .info {
+    background-color: #f0c284;
+    margin-top: 1%;
+    width: 95%;
+}
+
+/* --------------------------------------------------------------- */
+
+footer {
+    background-color: black;
+    color: white;
+    height: 5%;
+    opacity: 0.9;
+}
+
+footer p {
+    float: left;
+    padding-top: 0.8%;
+    padding-left: 0.8%;
+}
